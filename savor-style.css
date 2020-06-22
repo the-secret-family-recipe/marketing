@@ -1,0 +1,476 @@
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    margin: 0px;
+    background-image: url(bg.jpg);
+    background-size: 100%;
+    background-position: center top;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+    width: 75%;
+    margin: 0px auto;
+}
+
+header {
+    background-image: url(headerbgcrop1.jpg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 270px;
+    margin-bottom: 0px;
+    border-bottom: 1px solid black;
+}
+
+h1 {
+    font-family: 'Great Vibes', cursive;
+    font-size: 120px;
+    color: black;
+    margin-bottom: 5px;
+    margin-top: 40px;
+    text-shadow: 0px 0px 20px rgb(255, 255, 221, 1.0), 
+    0px 0px 20px rgba(255, 255, 221, 1.0), 
+    0px 0px 20px rgba(255, 255, 221, 1.0),
+    0px 0px 20px rgba(255, 255, 221, 1.0),
+    0px 0px 10px rgba(255, 255, 221, 1.0),
+    0px 0px 10px rgba(255, 255, 221, 1.0);
+    cursor: default;
+}
+
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    overflow-wrap: normal;
+    letter-spacing: 5px;
+    text-align: center;
+    font-size: 25px;
+    margin-top: -20px;
+    margin-bottom: 30px;
+    cursor: default;
+    text-shadow: 0px 0px 10px rgba(255, 255, 231, 1.0),
+    0px 0px 10px rgba(255, 255, 221, 1.0),
+    0px 0px 10px rgba(255, 255, 221, 1.0),
+    0px 0px 10px rgba(255, 255, 221, 1.0),
+    0px 0px 10px rgba(255, 255, 221, 1.0),
+    0px 0px 10px rgba(255, 255, 221, 1.0);
+}
+
+h3:hover {
+    border-bottom: 4px solid black;
+    
+}
+
+.pic-text {
+    background-image: url(tabletsavor.jpg);
+    background-size: 129%;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 450px;
+    margin-top: 0px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.motto {
+    font-size: 25px;
+    color: white;
+    text-shadow: 0px 0px 10px rgba(0, 0, 0, 1.0),
+    0px 0px 10px rgba(0, 0, 0, 1.0),
+    0px 0px 10px rgba(0, 0, 0, 1.0),
+    0px 0px 10px rgba(0, 0, 0, 1.0);
+    width: 70%;
+    text-align: center;
+}
+
+.motto:hover {
+    transition: transform 1s;
+    transform: scale(1.3);
+    cursor: default;
+}
+
+.motto:not(:hover) {
+    transition: transform 1s;
+    transform: scale(1);
+    cursor: default;
+}
+
+.getstarted {
+    display: inline-block;
+    text-align: center;
+    padding: 13px;
+    border-radius: 25px;
+    background-color: #BCF274;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+    border: 3px solid #94D244;
+}
+
+.getstarted:hover {
+    background-color: #94D244;
+}
+
+
+
+.whatis {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background: #FFF7C6;
+    padding-top: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 30px;
+}
+
+
+#whatis-text {
+    width: 40%;
+    padding-top: 20px;
+}
+
+
+h2 {
+    margin-top: 0px;
+}
+
+h2:hover {
+    border-bottom: 4px solid black;
+    
+}
+
+#whatis-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+}
+
+#whatis-image img {
+    border-radius: 25px;
+    width: 90%;
+    height: auto;
+    margin-top: 15px;
+}
+
+#whatis-image img:hover {
+    filter: brightness(140%) contrast(90%);
+    transition: transform 1s;
+    transform: scale(1.1);
+}
+
+
+#whatis-image img:not(:hover) {
+    transition: transform 1s;
+    transform: scale(1);
+}
+
+
+.whysavor {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: #CB5B04;
+    padding-top: 50px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 50px;
+}
+
+#whysavor-pic {
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#whysavor-text {
+    padding-top: 20px;
+    width: 40%;
+}
+
+
+#whysavor-pic img {
+    border-radius: 25px;
+    width: 100%;
+    height: auto;
+    margin-top: 15px;
+    border: 2px solid #FFF7C6;
+}
+
+#whysavor-pic img:hover {
+    
+    transition: transform 1s;
+    transform: scale(1.1);
+    filter: brightness(140%) contrast(90%);
+}
+
+#whysavor-pic img:not(:hover) {
+    transition: transform 1s;
+    transform: scale(1);
+}
+
+
+
+footer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    background-color: #220C00;
+}
+
+.teamlink {
+    margin-left: 40px;
+    padding: 13px;
+    border: 3px solid #FFF7C6;
+    border-radius: 25px;
+    display: inline-block;
+    color: #FFF7C6;
+    text-decoration: none;
+    font-style: italic;
+    font-size: 20px;
+    text-align: center;
+}
+
+.teamlink:hover {
+    background: #CB5B04;
+    
+}
+
+
+/*Meet the Team page*/
+
+
+.the-team {
+    background-color: #CB5B04;
+    padding-top: 30px;
+}
+
+
+#team-title {
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 25px;
+}
+
+#team-title:hover {
+    border-bottom: 0px solid white;
+}
+
+.team-members {
+    width: 80%;
+    margin: 0 auto;
+}
+
+    .person {
+        padding-bottom: 30px;
+        display: flex;
+        box-sizing: border-box;
+    }
+
+
+        .person-pic {
+            width: 30%;
+        }
+
+            .person-pic img {
+                width: 90%;
+            }
+        
+        .person-info {
+            width: 70%;
+            background-color: rgb(255, 230, 162);
+            padding: 8px;
+            box-sizing: border-box;
+            height: auto;
+
+        }
+
+            h4 {
+                font-size: 19px;
+                margin-bottom: 15px;
+                margin-top: 10px;
+            }
+
+            .person-about {
+                margin: 0px;
+            }
+
+.about {
+    margin-left: 40px;
+    padding: 13px;
+    border: 3px solid #FFF7C6;
+    border-radius: 25px;
+    display: inline-block;
+    color: #FFF7C6;
+    text-decoration: none;
+    font-style: italic;
+    font-size: 20px;
+}
+
+.about:hover {
+    background: #CB5B04;
+    
+}
+
+/*---------------Media Queries----------------------*/
+
+
+@media (max-width: 900px) {
+
+    #whatis-text {
+        width: 55%;
+        
+    }
+
+    #whatis-image {
+        width: 40%;
+    }
+
+    #whatis-image img {
+        width: 85%;
+    }
+
+    .whysavor {
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+    }
+
+    #whysavor-pic {
+        width: 100%;
+    }
+
+    #whysavor-pic img {
+        width: 70%;
+    }
+
+
+    #whysavor-text {
+        width: 100%;
+    }
+
+    #whysavor-textbox {
+        width: 70%;
+        margin: 0px auto;
+    }
+
+
+    
+
+
+@media (max-width: 800px) {
+
+    .container {
+        width: 100%
+    }
+
+    .pic-text {
+        background-size: 136%;
+    }
+
+    
+
+}
+
+
+@media (max-width: 612px) {
+
+    footer {
+        
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        height: 190px;
+        overflow-wrap: break-word;
+    }
+
+    .teamlink {
+        margin-left: 0px;
+    }
+
+    .about {
+        margin-left: 0px;
+    }
+}
+
+
+@media (max-width: 600px) {
+
+    #whatis-text {
+        width: 100%;
+        padding: 20px;
+    }
+
+    #whatis-image {
+        width: 100%;
+    }
+
+    #whatis-image img {
+        width: 75%;
+    }
+
+    footer {
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        height: 190px;
+    }
+
+}
+
+
+@media (max-width: 500px) {
+
+    .pic-text {
+        background-size: 180%;
+    }
+
+    .person {
+        flex-direction: column;
+        margin-bottom: 30px;
+    }
+
+    .person-pic {
+        width: 100%;
+    }
+
+    .person-pic img {
+        width: 100%;
+    }
+
+    .person-info {
+        width: 100%;
+    }
+
+}
+
+@media (max-width: 400px) {
+
+    .pic-text {
+        background-size: 250%;
+    }
+
+}
+
+@media (max-width: 300px) {
+
+    h1 {
+        font-size: 95px;
+    }
+
+    h3 {
+        font-size: 20px;
+    }
+
+}
