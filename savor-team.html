@@ -10,6 +10,19 @@
     <link rel="icon" 
       type="image/png" 
       href="favicon.ico">
+    <script type='text/javascript' src='main.js'></script>
+
+    <script>
+        function myFunction() {
+          var x = document.getElementById("myLinks2");
+          if (x.style.display === "block") {
+            x.style.display = "none";
+          } else {
+            x.style.display = "block";
+          }
+        }
+    </script>
+
 </head>
 <body>
 
@@ -17,7 +30,13 @@
         <header>
             <h1>Savor</h1>
             <h3>SECRET FAMILY RECIPE SAVER</h3>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()"><img src='burger.png'></a>
         </header>
+        <div id="myLinks2">
+            <a href="savor.html">HOME</a>
+            <a href="savor-team.html">MEET OUR TEAM</a>
+            <a href="https://savor.vercel.app/">REGISTER</a>
+        </div>
 
         <section class="the-team">
             <h2 id="team-title">Meet Our Team</h2>
@@ -50,6 +69,8 @@
                         </div>
                         <div class="person-info">
                             <h4>Back-End</h4>
+                            <p class="person-about">Eric is working on the stuff "under the hood" to make everything works for Savor - the Back-End. 
+                                Eric is a Full Stack Web Developer based in Florida with a passion for technology and video games.</p>
                         </div>
                     </div>
                 <h2>Gregory Wilson</h2>

@@ -10,6 +10,20 @@
     <link rel="icon" 
       type="image/png" 
       href="favicon.ico">
+
+      
+<script>
+      function myFunction() {
+        var x = document.getElementById("myLinks");
+        if (x.style.display === "inline-block") {
+          x.style.display = "none";
+        } else {
+          x.style.display = "inline-block";
+        }
+      }
+</script>
+
+
 </head>
 <body>
 
@@ -17,7 +31,13 @@
         <header>
             <h1>Savor</h1>
             <h3>SECRET FAMILY RECIPE SAVER</h3>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()"><img src='burger.png'></a>
         </header>
+        <div id="myLinks">
+            <a href="savor.html">HOME</a>
+            <a href="savor-team.html">MEET OUR TEAM</a>
+            <a href="https://savor.vercel.app/">REGISTER</a>
+        </div>
 
         <section class="pic-text">
             <p class="motto">Passing down family recipes from generation to generation from anywhere in the world through the cloud.</p>
@@ -60,6 +80,5 @@
             <a class="teamlink" href="savor-team.html">Meet Our Team</a>
         </footer>
     </div> <!--end of container-->
-
 </body>
 </html>
